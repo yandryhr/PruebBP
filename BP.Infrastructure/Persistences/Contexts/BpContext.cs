@@ -47,8 +47,6 @@ public partial class BpContext : DbContext
             entity.Property(e => e.TipoCuenta)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-
-         
         });
 
         modelBuilder.Entity<Movimiento>(entity =>
@@ -61,8 +59,7 @@ public partial class BpContext : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Valor).HasColumnType("decimal(10, 2)");
-
-          
+            
         });
 
         modelBuilder.Entity<Persona>(entity =>

@@ -4,6 +4,9 @@
     {
         // declaracion de interfaces a nivel de repositorio
         IClientRepository Cliente { get; }
+        IAccountRepository Cuenta { get; }
+
+        IMovementRepository Movimiento { get; }
 
         void SaveChanges();
         Task SaveChangesAsync();

@@ -15,5 +15,5 @@ public partial class Movimiento
 
     public decimal Saldo { get; set; }
 
-    public long NumeroCuenta { get; set; }
+    public long NumeroCuenta { get; set; }    
 }

@@ -7,10 +7,10 @@ namespace BP.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ClienteController : ControllerBase
+    public class ClientController : ControllerBase
     {
         private readonly IClientApplication _clientApplication;
-        public ClienteController(IClientApplication clientApplication)
+        public ClientController(IClientApplication clientApplication)
         {
             _clientApplication = clientApplication;
         }

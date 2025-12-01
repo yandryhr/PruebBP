@@ -14,4 +14,5 @@ public partial class Cuenta
     public bool Estado { get; set; }
 
     public long ClienteId { get; set; }
+        
 }
